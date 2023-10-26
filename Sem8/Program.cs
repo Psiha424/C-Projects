@@ -24,7 +24,10 @@ void Print2DArray(int[,] array)
         Console.Write($"{array[i, j]} ");
         Console.WriteLine();
     }    
+    System.Console.WriteLine();
 }
+
+
 
 void ChangeRows(int[,] array, int row1, int row2)
 {
