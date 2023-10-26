@@ -1,10 +1,4 @@
-﻿int ImputInteger(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-int[,] Create2DArray(int rows, int columns)
+﻿int[,] Create2DArray(int rows, int columns)
 {
     return new int[rows, columns];
 }
